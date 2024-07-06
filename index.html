@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prework Study Guide</title>
+  </head>
+
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img 
+        src="./assets/bowtie-cat.png" 
+        alt="Profile image of cat wearing a bow tie." 
+      />
+    </header>
+
+    <main>
+      <!-- Added Study Guide content -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>Declarations are not case sensative but elements are case sensative.</li>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li>Elements nested inside other elements are called "child elements." Elements that hold children are called "parent elements."</li>
+          <li>Use semantic HTML elements when possible to make HTML easier to read.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>A margin indicates how much space we want arount the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Increasing padding will make the entire element bigger.</li>
+          <li>Asterisk * is a special symbol that declares ALL elements on the page will have the style properties.</li>
+          <li>Three Ways to Style a Webpage</li>
+          <li>Inline CSS</li>
+            <ol>
+              <li>Style elements directly into HTML file.</li>
+              <li>Useful for quick and permanent changes.</li>
+              <li>Less flexible than external/internal style sheets.</li>
+              <li>Each inline style must be edited individually whenever you make a design change.</li>
+            </ol>
+           <li>Internal Style Sheet</li> 
+            <ol>
+              <li>Embed the entire stylesheet into HTML file using style elements in the head element.</li>
+            </ol>
+          <li>External Style Sheet</li>
+            <ol>
+              <li>Most common; allows developers to keep all of their CSS rules in separate file.</li>
+              <li>Design changes are easier.</li>
+              <li>Link the file using the link element placed in the HTML head.</li>
+            </ol>
+          <li>Separation of concerns; separating code into different files bases on use. Each section of code should have it's own responsibility</li>
+          <li>You can combine selectors into CSS rule with a comma to not repat yourself.</li>
+          <li>DRY = Do Not Repeat Yourself; reduce overall size and complexity of code when possible.</li>
+          <li>Class attribute; add style to certain elements but not all elements. Can be asigned to the element in the HTML (ex. card).</li>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Verserion control system used to save and track versions of code.</li>
+          <li>Every version is assigned a unique identifer called SHA (hash).</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout main: switch to main</li>
+          <li>git pull origin main: pull down main branch</li>
+          <li>Workflow for Content Updates</li>
+            <ol>
+              <li>Create a branch.</li>
+              <li>Open a pull request.</li>
+              <li>Merge and deploy.</li>
+            </ol>
+        </ul>      
+      </section>
+
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+        <ul>
+          <li>Allows users interact with websites.</li>
+          <li>Browser readss code in the order it appears in the file.</li>
+          <li>Case sensative.</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flo
+            w is the order in which a computer executes code in a script.
+          </li>
+          <li>/*Comments*/  //This is a comment.</li>
+          <li>Strict equality ===</li>
+          <li>Conditionals are if/else statements.</li>
+          <li>Functions are set of instructions that are packaged and can be reused. Must call functions by name to execute it.</li>
+          <li>Events listen for activity and run code in response. (ex. click event)</li>
+          <li>Undefined (absence of value; identifer); Null (absence of an object (keyword)</li>
+          <li>Link script.js to html in 'body'</li>
+          <li>Chrome Dev Tools: CTRL+SHIFT+I (inspect)</li>
+          <li>Arrays are single variables that are used to hold a group of data and can hold different types of data.</li>
+          <li>Arrays are zero indexed and sequential.</li>
+          <li>For loops allow single code block to be execute over and over. Must use 'if' statement to interrupt the control flow.</li>
+          <li> For loops contain (1) starting point, (2) condition, and (3) final statement.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>I can code!</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
